@@ -4,7 +4,9 @@ export default function firstPost() {
     return (
         <div className="container">
             <h1 className="title">Hello world!</h1>
-            <Link href="/">Back to home</Link>
+            <Link href="/">
+                <a>Back to home</a>
+            </Link>
 
             <style jsx>{`
                 .container {
